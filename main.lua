@@ -111,16 +111,22 @@ function love.draw()
   for y=0, rows-1 do
     for x=0, columns-1 do
       
+      love.graphics.setColor(128,128,255)
+      
       if grid[y+1][x+1].alive then
         love.graphics.rectangle("fill", x*cellsize, y*cellsize, cellsize, cellsize)
       end
+        
+      love.graphics.setColor(64,64,64)
       
+      if showpop and grid[y+1][x+1].population ~= 0 then
+        love.graphics.printf(grid[y+1][x+1].population, x*cellsize, y*cellsize, cellsize, "center")
+      end
+   
     end
   end
   
   -- draw grid and population
-  love.graphics.setColor(64,64,64)
-  
   if showgrid then
     for y=0, rows-1 do
       love.graphics.line(0, y*cellsize, love.graphics.getWidth(), y*cellsize)
@@ -129,12 +135,6 @@ function love.draw()
       love.graphics.line(x*cellsize, 0, x*cellsize, love.graphics.getHeight())
     end
   end
-  
-  if showpop and grid[y+1][x+1].population ~= 0 then
-    love.graphics.printf(grid[y+1][x+1].population, x*cellsize, y*cellsize, cellsize, "center")
-  end
-  
-  love.graphics.setColor(128,128,255)
   
   -- draw GUI
   if help > 0 then
