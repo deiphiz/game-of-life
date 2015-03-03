@@ -3,7 +3,7 @@ Conway's Game of Life
 
 This is a simple implementation of Conway's Game of Life.
 
-<img src="https://www.dropbox.com/s/m3zt423imewpex8/Screenshot%202015-03-04%2001.16.13.png?dl=0" />
+<img src="https://dl.dropboxusercontent.com/u/18596008/Screenshot%202015-03-04%2001.16.13.png"/>
 
 Features
 --------
