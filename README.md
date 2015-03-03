@@ -14,7 +14,7 @@ Features
 - Show populations/neighbors of each cell
 - Grid wrapping
 
-I have features planned for the future like:
+I have features planned for the future such as:
 
 - Resizable window
 - Grid that resizes with the window
@@ -24,18 +24,19 @@ I have features planned for the future like:
 
 Controls
 --------
-L-click/R-click = create/erase cells
-Mouse Scroll or Arrow Keys = adjust interval length
-Space = Pause
-S = Step
-H = Toggle Help/Info
-C = Clear Grid*
-R = Generate Random Grid*
-P = Toggle Population**
-G = Toggle Gridlines**
-W = Toggle Wrapping 
+- L-click/R-click = create/erase cells
+- Mouse Scroll or Arrow Keys = adjust interval length
+- Space = Pause
+- S = Step
+- H = Toggle Help/Info
+- C = Clear Grid*
+- R = Generate Random Grid*
+- P = Toggle Population**
+- G = Toggle Gridlines**
+- W = Toggle Wrapping 
 
 \*resets counter
+
 \*\*affects performance
 
 Building
@@ -51,6 +52,8 @@ TL;DR for lazy Windows users like me:
 
 License
 -------
-This program is licensed under the Apache License, Version 2.0.
+Copyright (c) 2015 Jeremias A. Dulaca II
+
+This program is licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />The icon included is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
