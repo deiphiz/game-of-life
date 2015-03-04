@@ -52,7 +52,7 @@ TL;DR for lazy Windows users like me:
 
 Downloads
 ---------
-Completed builds can be downloaded [from here](https://www.dropbox.com/sh/nbxu3wv6gs4qhn1/AACqr9mee8VHng8_0th2Hi6Ga?dl=0). Note at this time, only Windows builds are available.
+Completed builds can be downloaded [from here](https://www.dropbox.com/sh/kxlg449iq5f4xoa/AADF_AxOTZiY-t4OX8wAdzIwa?dl=0). Note at this time, only Windows builds are available.
 
 The current version is **0.3.0**.
 
