@@ -41,19 +41,25 @@ Controls
 
 Building
 --------
-This program was written with LÖVE. You can download LÖVE at http://love2d.org/.
+This program was written with LÖVE. You can download LÖVE at [their website](http://love2d.org/).
 
-Information on building LÖVE executables for Windows, OSX, and Linux can be found at https://love2d.org/wiki/Game_Distribution.
+Information on building LÖVE executables for Windows, OSX, and Linux can be found [here](https://love2d.org/wiki/Game_Distribution).
 
 TL;DR for lazy Windows users like me:
 ```
 > copy /b love.exe+gameoflife.love gameoflife.exe
 ```
 
+Downloads
+---------
+Completed builds can be downloaded [from here](https://www.dropbox.com/sh/nbxu3wv6gs4qhn1/AACqr9mee8VHng8_0th2Hi6Ga?dl=0). Note at this time, only Windows builds are available.
+
+The current version is **0.3.0**.
+
 License
 -------
 Copyright (c) 2015 Jeremias A. Dulaca II
 
-This program is licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+This program is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />The icon included is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
